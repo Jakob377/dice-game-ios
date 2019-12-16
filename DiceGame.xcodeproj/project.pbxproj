@@ -15,6 +15,8 @@
 		360F6F08238C2AC6008FAF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360F6F06238C2AC6008FAF13 /* LaunchScreen.storyboard */; };
 		360F6F13238C2AC6008FAF13 /* DiceGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360F6F12238C2AC6008FAF13 /* DiceGameTests.swift */; };
 		360F6F1E238C2AC6008FAF13 /* DiceGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360F6F1D238C2AC6008FAF13 /* DiceGameUITests.swift */; };
+		360F6F2C238D78CC008FAF13 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360F6F2B238D78CC008FAF13 /* StatisticsViewController.swift */; };
+		360F6F2E238D79B7008FAF13 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360F6F2D238D79B7008FAF13 /* Statistics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		360F6F19238C2AC6008FAF13 /* DiceGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiceGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		360F6F1D238C2AC6008FAF13 /* DiceGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceGameUITests.swift; sourceTree = "<group>"; };
 		360F6F1F238C2AC6008FAF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360F6F2B238D78CC008FAF13 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		360F6F2D238D79B7008FAF13 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				360F6EFB238C2AC4008FAF13 /* AppDelegate.swift */,
+				360F6F2B238D78CC008FAF13 /* StatisticsViewController.swift */,
+				360F6F2D238D79B7008FAF13 /* Statistics.swift */,
 				360F6EFD238C2AC4008FAF13 /* SceneDelegate.swift */,
 				360F6EFF238C2AC4008FAF13 /* ViewController.swift */,
 				360F6F01238C2AC4008FAF13 /* Main.storyboard */,
@@ -262,6 +268,8 @@
 				360F6F00238C2AC4008FAF13 /* ViewController.swift in Sources */,
 				360F6EFC238C2AC4008FAF13 /* AppDelegate.swift in Sources */,
 				360F6EFE238C2AC4008FAF13 /* SceneDelegate.swift in Sources */,
+				360F6F2E238D79B7008FAF13 /* Statistics.swift in Sources */,
+				360F6F2C238D78CC008FAF13 /* StatisticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
